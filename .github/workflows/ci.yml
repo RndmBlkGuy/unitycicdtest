@@ -11,6 +11,7 @@ jobs:
   buildForLinux:
     runs-on: windows-latest
     steps:
+      - uses: actions/checkout@v3
       - uses: game-ci/unity-builder@v2
         env:
               UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
@@ -25,4 +26,4 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: WindowsBuild
-          path: build/x86
+          path: build/Windows
