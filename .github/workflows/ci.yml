@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    path:
+    paths:
       - '2D Test/Assets/**'
       - '2D Test/Packages/**'
       - '2D Test/ProjectSettings/**'
@@ -17,9 +17,6 @@ jobs:
               UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
               UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
               UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-            with:
-              projectPath: 2D Test
-              githubToken: ${{ secrets.GITHUB_TOKEN }}
         with:
           targetPlatform: [x86, x64]
           projectPath: 2D Test
