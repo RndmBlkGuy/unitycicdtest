@@ -26,4 +26,4 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: WindowsBuild
-          path: build/[x86, x64]
+          path: build/x86
