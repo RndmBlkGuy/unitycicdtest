@@ -164,7 +164,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.aciraa.rekosnightmare
-    Standalone: com.Company.ProductName
+    Standalone: com.DefaultCompany.2D-Test
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -738,8 +738,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: 2D Test
-  metroPackageVersion: 
+  metroPackageName: 2DTest
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -747,7 +747,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: 2D Test
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: 2D Test
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
